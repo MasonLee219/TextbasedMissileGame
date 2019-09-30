@@ -9,7 +9,7 @@ int const BATTLEFIELD_MAX_SIZE_X = 5;
 int const BATTLEFIELD_MAX_SIZE_Y = 5;
 int const BATTLEFIELD_MIN_SIZE_X = 1;
 int const BATTLEFIELD_MIN_SIZE_Y = 1;
-int const ENEMY_COUNT = 5;
+int const ENEMY_COUNT = 3;
 int const LAUNCH_CODE = 1234;
 
 enum Warhead { Ballistic, Nuclear };
@@ -25,7 +25,7 @@ typedef struct Position
 
 	void print()
 	{
-		cout << x << y << endl;
+		cout<< "(" << x <<"," << y << ")"<< endl;
 	}
 }Coordinates;
 
@@ -39,6 +39,10 @@ struct Userinputs
 typedef struct Enemy
 {
 	Coordinates coordinates;
+	void kill()
+	{
+		delete this;
+	}
 }Target;
 
 
@@ -59,10 +63,14 @@ struct Missile
 			isArmed = true;
 	}
 
-	void update()
+	void updateX()
 	{
 		coordinates.x += 1;
-		coordinates.y += 2;
+	}
+
+	void updateY()
+	{
+		coordinates.y += 1;
 	}
 };
 
