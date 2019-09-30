@@ -1,0 +1,6 @@
+﻿  TextBasedMissileGame.cpp
+d:\school shit\itcarlow\semester 2\play programming\textbasedmissilegame\textbasedmissilegame\textbasedmissilegame.cpp(55): warning C4129: ')': unrecognized character escape sequence
+d:\school shit\itcarlow\semester 2\play programming\textbasedmissilegame\textbasedmissilegame\textbasedmissilegame.cpp(64): warning C4129: ')': unrecognized character escape sequence
+d:\school shit\itcarlow\semester 2\play programming\textbasedmissilegame\textbasedmissilegame\textbasedmissilegame.cpp(85): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\school shit\itcarlow\semester 2\play programming\textbasedmissilegame\textbasedmissilegame\textbasedmissilegame.cpp(102): warning C4551: function call missing argument list
+  TextBasedMissileGame.vcxproj -> D:\School shit\ITCarlow\Semester 2\Play Programming\TextBasedMissileGame\Debug\TextBasedMissileGame.exe
