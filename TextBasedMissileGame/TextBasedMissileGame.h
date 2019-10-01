@@ -39,10 +39,7 @@ struct Userinputs
 typedef struct Enemy
 {
 	Coordinates coordinates;
-	void kill()
-	{
-		delete this;
-	}
+	
 }Target;
 
 
